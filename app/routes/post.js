@@ -28,6 +28,11 @@ export default Ember.Route.extend({
     downvote(comment){
       comment.decrementProperty('voteStatus');
       comment.save();
+    },
+    delete(comment){
+      if (confirm("Are you absolutely, positively sure that you want to delete this comment? I think it's some of your best work!")) {
+      comment.destroyRecord();
+      }
     }
   }
 });

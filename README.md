@@ -59,7 +59,7 @@ You will need the following things properly installed on your computer.
 
 2. Lady comes to the site, desirous of displaying her wisdom on the subject of all things bakery.  She scrolls through the available posts, before settling upon a particularly hapless and pathetic post by the would-be-Battenbergian.  She clicks 'respond to post' and is presented with a form in which she can enter her hard-won wisdom on the subject of kuchen.  Fills out the form and hits the submit button, upon which she can see her response attached to the original Battenberg post.
 
-3. Years later, in another civilization, a third would-be baker trolls the internet searching for the long lost art of constructing the perfect Battenberg.  Comes across the post by user 1, the comment by user 2, tries out the revised Recipe, and is quite impressed.  Decides to upvote user 2's comment upon the subject.  He clicks the thumbs up button on the comment and the comment is now shown to have 1 upvote.
+3. Somewhat later, a third would-be baker trolls the internet searching for the long lost art of constructing the perfect Battenberg.  Comes across the post by user 1, the comment by user 2, tries out the revised Recipe, and is quite impressed.  Decides to upvote user 2's comment upon the subject.  He clicks the thumbs up button on the comment and the comment is now shown to have 1 upvote.
 
 4. Later still, the lady commenter discovers that her suggestion has actually resulted in the poisoning of an entire civilization.  She goes back to the site and deletes her post.
 

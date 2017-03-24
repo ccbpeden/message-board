@@ -7,6 +7,9 @@ export default Ember.Component.extend({
     },
     downvote(comment){
       this.sendAction('downvote', comment);
+    },
+    delete(comment){
+      this.sendAction('delete', comment);
     }
   }
 });

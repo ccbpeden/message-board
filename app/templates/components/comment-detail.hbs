@@ -1,6 +1,6 @@
-<h1>This is A Comment!</h1>
 <h3>{{comment.commentBody}}</h3>
 <h6>{{comment.user}}</h6>
 <p>Upvotes: {{comment.voteStatus}}</p>
 <button class="btn btn-success"{{action "upvote" comment}}>Upvote this Comment</button>
 <button class="btn btn-danger"{{action "downvote" comment}}>Downvote this Comment</button>
+<button class="btn btn-danger"{{action "delete" comment}}>Delete this Comment</button>
