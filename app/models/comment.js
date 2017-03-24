@@ -4,5 +4,5 @@ export default DS.Model.extend({
   user: DS.attr(),
   commentBody: DS.attr(),
   voteStatus: DS.attr(),
-  post: DS.belongsTO('post', {async: true})
+  post: DS.belongsTo('post', {async: true})
 });

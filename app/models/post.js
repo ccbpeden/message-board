@@ -5,6 +5,6 @@ export default DS.Model.extend({
   title: DS.attr(),
   teaser: DS.attr(),
   postBody: DS.attr(),
-  tags: DS.attr(),
+  tag: DS.attr(),
   comments: DS.hasMany('comment', {async: true})
 });
