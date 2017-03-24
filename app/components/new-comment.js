@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     showCommentForm(){
       this.set('showNewCommentForm', true);
     },
-    commentNew(post){
+    commentNew(){
       var params = {
         user: this.get('user'),
         commentBody: this.get('commentBody'),

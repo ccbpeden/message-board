@@ -1,25 +1,25 @@
 <header class="navbar navbar-fixed-top">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        {{#link-to 'about'}}About{{/link-to}}
+      <div class="col-sm-4">
+        <h4>{{#link-to 'about'}}About{{/link-to}}</h4>
       </div>
-      <div class="col-md-4">
-        {{#link-to 'index'}}Home{{/link-to}}
+      <div class="col-sm-4">
+        <h4>{{#link-to 'index'}}Home{{/link-to}}</h4>
       </div>
-      <div class="col-md-4">
-        {{#link-to 'contact'}}Contact{{/link-to}}
+      <div class="col-sm-4">
+        <h4>{{#link-to 'contact'}}Contact{{/link-to}}</h4>
       </div>
     </div>
+    <hr>
   </div>
 </header>
-
 <body>
-
   <div class="container">
-
+    <div class="title">
+      <h1>Cake Conundra</h1>
+      <h4>A place for all your baking questions</h4>
+    </div>
     {{outlet}}
-
   </div>
-
 </body>

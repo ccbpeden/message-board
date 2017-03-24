@@ -1,8 +1,14 @@
-<h3>{{post.title}}</h3>
-<p>{{post.teaser}}</p>
-<h5>{{post.user}}</h5>
-<p>{{post.postBody}}</p>
-<h6>{{post.tag}}</h6>
-
+<div class="row">
+  <div class="col-md-9">
+    <h3>{{post.title}}</h3>
+    <p>{{post.teaser}}</p>
+    <h5>{{post.user}}</h5>
+    <p>{{post.postBody}}</p>
+    <h6>{{post.tag}}</h6>
+  </div>
+  <div class="col-md-3">
+    <button class="btn btn-danger"{{action "deletePost" post}}>Delete Post</button>
+  </div>
+</div>
+  <hr>
 {{edit-post post=post editPost="editPost"}}
-<button {{action "deletePost" post}}>Delete Post</button>

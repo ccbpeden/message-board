@@ -1,17 +1,21 @@
-{{#if showEditPostForm}}
-<form class="" action="index.html" method="post">
-  <label for="user">Author Name</label>
-  {{input placeholder="user" value=user id="user"}}
-  <label for="title">Post Title</label>
-  {{input placeholder="title" value=title id="title"}}
-  <label for="teaser">A brief Description</label>
-  {{input placeholder="teaser" value=teaser id="teaser"}}
-  <label for="postBody">What You'd Like to say</label>
-  {{textarea rows=6 placeholder="postBody" value=postBody id="postBody"}}
-  <label for="tag">tag</label>
-  {{input placeholder="tag" value=tag id="tag"}}
-  <button class="btn btn-success" {{action "editPost" post}}>Submit</button>
-</form>
-{{else}}
-<button class="btn btn-success" {{action "showEditForm"}}>Edit</button>
-{{/if}}
+<div class="row">
+  <div class="col-md-9">
+    {{#if showEditPostForm}}
+    <form class="form-group" action="index.html" method="post">
+      <label for="user">Author Name</label>
+      {{input class="form-control" placeholder="user" value=user id="user"}}
+      <label for="title">Post Title</label>
+      {{input class="form-control" placeholder="title" value=title id="title"}}
+      <label for="teaser">A brief Description</label>
+      {{input class="form-control" placeholder="teaser" value=teaser id="teaser"}}
+      <label for="postBody">What You'd Like to say</label>
+      {{textarea class="form-control" rows=6 placeholder="postBody" value=postBody id="postBody"}}
+      <label for="tag">tag</label>
+      {{input class="form-control" placeholder="tag" value=tag id="tag"}}
+      <button class="btn btn-success" {{action "editPost" post}}>Submit</button>
+    </form>
+    {{else}}
+    <button class="btn btn-success" {{action "showEditForm"}}>Edit</button>
+    {{/if}}
+  </div>
+</div>

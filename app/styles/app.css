@@ -1,0 +1,16 @@
+.col-sm-4{
+  margin-top: 3%;
+  text-align: center;
+}
+body{
+  margin-top: 10%;
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWlblqHejpwRlerodLFksBJNy7nq_O3gP5HQsBmT41qUHJpNzXIA);
+}
+.title{
+  font-family: 'Fascinate Inline', cursive;
+  color: red;
+}
+
+img.petit{
+  width:75%;
+}
