@@ -12,5 +12,9 @@ body{
 }
 
 img.petit{
-  width:75%;
+  width:100%;
+}
+
+.well{
+  background-color: rgba(255,0,0,0.2);
 }

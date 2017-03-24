@@ -1,7 +1,9 @@
 {{post-detail post=model editPost="editPost" deletePost="deletePost"}}
 
 {{#each model.comments as |comment|}}
-{{comment-detail comment=comment upvote="upvote" downvote="downvote" delete="delete"}}
+<div class="well">
+  {{comment-detail comment=comment upvote="upvote" downvote="downvote" delete="delete"}}
+</div>
 {{/each}}
 
 {{new-comment post=model commentNew="commentNew"}}
