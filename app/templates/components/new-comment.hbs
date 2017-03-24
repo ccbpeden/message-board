@@ -1,0 +1,11 @@
+{{#if showNewCommentForm}}
+<form class="" action="index.html" method="post">
+  <label for="user">Author Name</label>
+  {{input placeholder=user value=user id="user"}}
+  <label for="commentBody">What You'd Like to say</label>
+  {{textarea rows=6 placeholder=commentBody value=commentBody id="commentBody"}}
+  <button class="btn btn-success" {{action "commentNew"}}>Submit</button>
+</form>
+{{else}}
+<button class="btn btn-success" {{action "showCommentForm"}}>New Comment</button>
+{{/if}}
