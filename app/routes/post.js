@@ -33,6 +33,17 @@ export default Ember.Route.extend({
       if (confirm("Are you absolutely, positively sure that you want to delete this comment? I think it's some of your best work!")) {
       comment.destroyRecord();
       }
+    },
+    deletePost(post){
+      if(confirm("I would sooner destroy a stained glass window than a post such as yours.  Once destroyed, 'twill be gone forever.  You Sure?")) {
+        var commentDeletions = post.get('comments').map(function(comment) {
+          return comment.destroyRecord();
+        });
+        Ember.RSVP.all(commentDeletions).then(function() {
+          return post.destroyRecord();
+        });
+        this.transitionTo('index');
+      }
     }
   }
 });

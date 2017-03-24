@@ -1,4 +1,4 @@
-{{post-detail post=model editPost="editPost"}}
+{{post-detail post=model editPost="editPost" deletePost="deletePost"}}
 
 {{#each model.comments as |comment|}}
 {{comment-detail comment=comment upvote="upvote" downvote="downvote" delete="delete"}}
