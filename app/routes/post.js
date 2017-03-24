@@ -12,6 +12,15 @@ export default Ember.Route.extend({
       newComment.save().then(function(){
         return post.save();
       });
+    },
+    upvote(comment){
+      comment.incrementProperty('voteStatus');
+      comment.save();
+    },
+    downvote(comment){
+      comment.decrementProperty('voteStatus');
+      comment.save();
+
     }
   }
 });
