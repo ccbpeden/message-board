@@ -1,1 +1,25 @@
-{{outlet}}
+<header class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        {{#link-to 'about'}}About{{/link-to}}
+      </div>
+      <div class="col-md-4">
+        {{#link-to 'index'}}Home{{/link-to}}
+      </div>
+      <div class="col-md-4">
+        {{#link-to 'contact'}}Contact{{/link-to}}
+      </div>
+    </div>
+  </div>
+</header>
+
+<body>
+
+  <div class="container">
+
+    {{outlet}}
+
+  </div>
+
+</body>
