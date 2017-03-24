@@ -61,6 +61,10 @@ You will need the following things properly installed on your computer.
 
 3. Years later, in another civilization, a third would-be baker trolls the internet searching for the long lost art of constructing the perfect Battenberg.  Comes across the post by user 1, the comment by user 2, tries out the revised Recipe, and is quite impressed.  Decides to upvote user 2's comment upon the subject.  He clicks the thumbs up button on the comment and the comment is now shown to have 1 upvote.
 
+4. Later still, the lady commenter discovers that her suggestion has actually resulted in the poisoning of an entire civilization.  She goes back to the site and deletes her post.
+
+5. Later still, ashamed at the association of his post with the great Battenberg Collapse, the original poster goes back to the site and deletes his entire post, which also deletes all comments associated with the post.... It is as if he had never asked the question in the first place.  If only this weren't the internet.
+
 ##Site plan
  1.  2 data models, posts and comments.  Posts has a 1 to many relationship with comments.  posts has following attributes: user, title, teaser, post-body, tags, and comments.  Comments has the following attributes: user, comment-body, vote-status.
  2. Routes: Contact, About, Index, Post/Post_ID
